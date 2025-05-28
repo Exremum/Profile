@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png">
+    <title>Messenger</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="messenger">
+        <!-- Список чатов -->
+        <aside class="chat-list">
+            <h2>Сообщения</h2>
+            <ul id="chats">
+                <li data-id="1"><img src="shrec.jpg" class="avatar"> Алексей</li>
+                <li data-id="2"><img src="shrec.jpg" class="avatar"> Мария</li>
+                <li data-id="3"><img src="shrec.jpg" class="avatar"> Дмитрий</li>
+                <li data-id="4"><img src="shrec.jpg" class="avatar"> Анна</li>
+                <li data-id="5"><img src="shrec.jpg" class="avatar"> Иван</li>
+            </ul>
+        </aside>
+
+        <!-- Окно чата -->
+        <main class="chat-window">
+            <div id="chat-header">Выберите чат</div>
+            <div id="messages"></div>
+            <div class="input-area">
+                <input type="text" id="message-input" placeholder="Напишите сообщение...">
+                <button id="send-button">Отправить</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
